@@ -1,7 +1,7 @@
 
 def frequency():
     freq = 0
-    with open('Day1Input.txt', 'r') as f:
+    with open('InputData/Day1Input.txt', 'r') as f:
         for line in f:
             x = int(line)
             freq = freq + x
@@ -12,7 +12,7 @@ def frequency2():
     freq_dict = {}
     breakout = True
     while breakout:
-        with open('Day1Input.txt', 'r') as f:
+        with open('InputData/Day1Input.txt', 'r') as f:
             for line in f:
                 x = int(line)
                 freq = freq + x
